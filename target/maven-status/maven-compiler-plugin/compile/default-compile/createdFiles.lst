@@ -1,0 +1,16 @@
+modele/Listing.class
+modele/RoomDescription.class
+modele/Photo.class
+createAgency/create.class
+modele/Description.class
+modele/Amenitie.class
+modele/Bed.class
+modele/RoomName.class
+modele/Proximitie.class
+modele/EarlyLastDiscount.class
+modele/AmenitieName.class
+modele/Catchphrase.class
+modele/Discount.class
+modele/Title.class
+modele/Room.class
+modele/Price.class
