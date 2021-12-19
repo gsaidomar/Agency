@@ -1,19 +1,9 @@
-<%-- 
-    Document   : home
-    Created on : 18 déc. 2021, 19:13:53
-    Author     : kuncom
---%>
 
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
         <%@include file="../layout/header.jsp" %>
+        <%@include file="../composant/loader.jsp" %>
+        <%@include file="../composant/navbar.jsp" %>
+        <%@include file="../composant/homebackground.jsp" %>
+        <%@include file="../composant/recherche.jsp" %>
        
         <h1>Hello World!</h1>
    
@@ -25,7 +15,8 @@
             <c:out value="${ c.titles.fr } ${ c.city } ${ c.ref }" />
             
             <c:forEach items="${ c.photos }" var="d" varStatus="status">
-                 <c:out value="${ d.uri } " />
+                 
+                 <img src="${ d.uri } alt="alt"/>
                 
             </c:forEach>
      
@@ -37,5 +28,4 @@
     </div>
         
  <%@include file="../layout/footer.jsp" %>
-</body>
-</html>
+

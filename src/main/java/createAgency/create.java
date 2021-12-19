@@ -19,7 +19,9 @@ import javax.servlet.http.HttpSession;
 import modele.Listing;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import java.io.InputStreamReader;
 import java.lang.reflect.Type;
+import java.net.URL;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -73,25 +75,15 @@ public class create extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
+
+        URL url = new URL("http://localhost:8080/Agency/resources/flux/listing.json");
+        InputStreamReader reader = new InputStreamReader(url.openStream());
         
-                File file = new File("/Volumes/SSD/Projet/AgenceJava/src/main/resources/flux/listing.json");
-
-
-
-
-
-        Reader reader = new FileReader(file);
         BufferedReader br = new BufferedReader(reader);
         String jsonString;
         jsonString = br.readLine();
-
-        Gson gson = new Gson();
-        Listing[] biens = gson.fromJson(jsonString, Listing[].class);
-        
-        //Type founderListType = new TypeToken<ArrayList<Listing>>(){}.getType();
-        //List<Listing> biens = gson.fromJson(jsonString, founderListType);  
-        
-        //GeneralInfo generalInfoObject = gson.fromJson(generalInfoJson, GeneralInfo.class);  
+       
+        Listing[] biens = new Gson().fromJson(jsonString, Listing[].class);
 
         HttpSession session = request.getSession();
         session.setAttribute("biens", biens);
