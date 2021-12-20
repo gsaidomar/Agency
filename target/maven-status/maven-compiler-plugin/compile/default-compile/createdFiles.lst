@@ -4,6 +4,7 @@ modele/Photo.class
 createAgency/create.class
 modele/Description.class
 modele/Amenitie.class
+controller/detailController.class
 modele/Bed.class
 modele/RoomName.class
 modele/Proximitie.class
