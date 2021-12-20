@@ -14,4 +14,5 @@ modele/Catchphrase.class
 modele/Discount.class
 modele/Title.class
 modele/Room.class
+controller/index.class
 modele/Price.class
