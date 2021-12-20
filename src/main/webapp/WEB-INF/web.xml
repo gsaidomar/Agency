@@ -13,6 +13,10 @@
         <servlet-class>controller.detailController</servlet-class>
     </servlet>
     <servlet>
+        <servlet-name>index</servlet-name>
+        <servlet-class>controller.index</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>detail</servlet-name>
         <jsp-file>/WEB-INF/vue/detail.jsp</jsp-file>
     </servlet>
@@ -28,14 +32,17 @@
         <servlet-name>detailController</servlet-name>
         <url-pattern>/detail</url-pattern>
     </servlet-mapping>
-    
+    <servlet-mapping>
+        <servlet-name>index</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             3000
         </session-timeout>
     </session-config>
     <welcome-file-list>
-        <welcome-file>index.html</welcome-file>
+        <welcome-file>index</welcome-file>
     </welcome-file-list>
     <jsp-config>
         <jsp-property-group>
@@ -43,5 +50,4 @@
             <include-prelude>/WEB-INF/taglibs.jsp</include-prelude>
         </jsp-property-group>
     </jsp-config>
-
 </web-app>
