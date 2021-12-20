@@ -84,10 +84,17 @@ public class create extends HttpServlet {
         jsonString = br.readLine();
        
         Listing[] biens = new Gson().fromJson(jsonString, Listing[].class);
-
+        
+        ArrayList<Listing> lots = new ArrayList<Listing>();
+        for(int i = 0; i<biens.length; i++){
+            
+            lots.add(biens[i]);
+        
+        }
+       
         HttpSession session = request.getSession();
         session.setAttribute("biens", biens);
-        session.setMaxInactiveInterval(200);
+        //session.setMaxInactiveInterval(200);
 
 
             // Client side redirect
