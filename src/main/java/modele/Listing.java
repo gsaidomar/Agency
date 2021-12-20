@@ -42,11 +42,22 @@ public class Listing {
     public boolean conciergeServiceAllowed ;
     public boolean brokeringAllowed ;
     public String type ;
+    public int collectiveOrIndividualType;
+
+    public int getCollectiveOrIndividualType() {
+        return collectiveOrIndividualType;
+    }
+
+    public void setCollectiveOrIndividualType(int collectiveOrIndividualType) {
+        this.collectiveOrIndividualType = collectiveOrIndividualType;
+    }
     public boolean petsAccepted ;
     public boolean wifiIncluded ;
     public float latitude ;
     public float longitude ;
     public int officialRanking ;
+    public int stationRanking;
+
     public List<Proximitie> proximities ;
     public List<EarlyLastDiscount> earlyLastDiscounts ;
     public double securityDeposit ;
@@ -356,7 +367,13 @@ public class Listing {
     public void setOfficialRanking(int officialRanking) {
         this.officialRanking = officialRanking;
     }
+ public int getStationRanking() {
+        return stationRanking;
+    }
 
+    public void setStationRanking(int stationRanking) {
+        this.stationRanking = stationRanking;
+    }
     public List<Proximitie> getProximities() {
         return proximities;
     }

@@ -3,11 +3,11 @@
         <img src="/Agency/resources/assets/images/montagne.jpg" class="bg-img img-fluid blur-up lazyload" alt="">
         <div class="breadcrumb-content overlay-black">
             <div>
-                <h2>holiday package</h2>
+                <h2>LDNR Agency</h2>
                 <nav aria-label="breadcrumb" class="theme-breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">holiday package</li>
+                        <li class="breadcrumb-item active" aria-current="page">Courchevel location</li>
                     </ol>
                 </nav>
             </div>
