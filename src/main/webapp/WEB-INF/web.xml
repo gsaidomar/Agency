@@ -20,10 +20,15 @@
         <servlet-name>detail</servlet-name>
         <jsp-file>/WEB-INF/vue/detail.jsp</jsp-file>
     </servlet>
+     <servlet-mapping>
+        <servlet-name>index</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>create</servlet-name>
         <url-pattern>/create</url-pattern>
     </servlet-mapping>
+    
     <servlet-mapping>
         <servlet-name>home</servlet-name>
         <url-pattern>/home.jsp</url-pattern>
@@ -32,10 +37,7 @@
         <servlet-name>detailController</servlet-name>
         <url-pattern>/detail</url-pattern>
     </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>index</servlet-name>
-        <url-pattern>/index</url-pattern>
-    </servlet-mapping>
+  
     <session-config>
         <session-timeout>
             3000

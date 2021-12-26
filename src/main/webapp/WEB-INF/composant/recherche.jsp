@@ -7,19 +7,19 @@
                         <div class="search-box">
                             <div class="left-part">
                                 <div class="search-body title-hotel">
-                                    <h6>hotel</h6>
-                                    <input type="text" name="text" placeholder="dubai" class="form-control ">
+                                    <h6>Destination</h6>
+                                    <input type="text" name="text" placeholder="Courchevel" class="form-control ">
                                 </div>
                                 <div class="search-body">
-                                    <h6>check in</h6>
-                                    <input placeholder="18 april" id="datepicker" />
+                                    <h6>Arrivée</h6>
+                                    <input placeholder="18 Avril" id="datepicker" />
                                 </div>
                                 <div class="search-body">
-                                    <h6>check out</h6>
-                                    <input placeholder="20 april" id="datepicker1" />
+                                    <h6>Départ</h6>
+                                    <input placeholder="20 Avril" id="datepicker1" />
                                 </div>
                                 <div class="search-body">
-                                    <h6>guests</h6>
+                                    <h6>Personnes</h6>
                                     <div class="qty-box">
                                         <div class="input-group">
                                             <span class="input-group-prepend">
@@ -41,7 +41,7 @@
                                 </div>
                                 <div class="search-body btn-search">
                                     <div class="right-part">
-                                        <a href="#" class="btn btn-solid color1">search</a>
+                                        <a href="#" class="btn btn-solid color1">Recherche</a>
                                     </div>
                                 </div>
                             </div>

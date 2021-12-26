@@ -1,28 +1,19 @@
-<%-- 
-    Document   : detail
-    Created on : 19 déc. 2021, 22:42:56
-    Author     : kuncom
---%>
+        <%@include file="../layout/header.jsp" %>
+       
+        <%@include file="../composant/navbar.jsp" %>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <h1>detail ${ c.titles.fr }</h1>
-        
-         
-            <c:out value="${ c.titles.fr } ${ c.city } ${ c.ref }" />
-            
-            <c:forEach items="${ c.photos }" var="d" varStatus="status">
-                 
-                 <img src="${ d.uri } alt="alt"/>
-                 
-                
-                
+    <section class="pt-0">
+        <div class="variable-width no-arrow">
+               <c:forEach items="${ c.photos }" var="d" varStatus="status">
+                <div>
+                    <img src="${ d.uri }" class="img-fluid sliderimage blur-up lazyload" alt="">
+                </div>
             </c:forEach>
-    </body>
-</html>
+        </div>
+    </section>
+
+        
+        <%@include file="../composant/detail.jsp" %> 
+        
+
+ <%@include file="../layout/footer.jsp" %>

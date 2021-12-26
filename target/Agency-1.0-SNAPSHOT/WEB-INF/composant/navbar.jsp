@@ -3,9 +3,9 @@
             <div class="row">
                 <div class="col">
                     <div class="menu">
-                        <div class="brand-logo">
-                            <a href="../index.html">
-                                <img src="../assets/images/icon/footer-logo.png" alt=""
+                        <div class="logo-ldnr">
+                            <a href="/">
+                                <img src="/Agency/resources/assets/images/logo-ldnr.jpg" alt=""
                                     class="img-fluid blur-up lazyload">
                             </a>
                         </div>
