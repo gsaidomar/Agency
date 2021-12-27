@@ -43,6 +43,11 @@
         <servlet-name>detailController</servlet-name>
         <url-pattern>/detail</url-pattern>
     </servlet-mapping>
+    
+    <error-page>
+        <error-code>404</error-code>
+        <location>/WEB-INF/vue/error_404.jsp</location>
+    </error-page>
   
     <session-config>
         <session-timeout>
