@@ -4,7 +4,7 @@
                 <div class="col">
                     <div class="menu">
                         <div class="logo-ldnr">
-                            <a href="/">
+                            <a href="/Agency">
                                 <img src="/Agency/resources/assets/images/logo-ldnr.jpg" alt=""
                                     class="img-fluid blur-up lazyload">
                             </a>
