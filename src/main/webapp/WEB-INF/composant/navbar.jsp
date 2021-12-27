@@ -27,7 +27,7 @@
                                         
                                         <li> <a href="/Agency/favoris.jsp" class="nav-link menu-title">Favoris</a> </li>
                                         <li> <a href="/Agency/reservation.jsp" class="nav-link menu-title">Réservation</a> </li>
-                                         <li> <a href="/Agency/contact.jsp" class="nav-link menu-title">Contact</a> </li>
+                                         <li> <a href="/Agency/contact" class="nav-link menu-title">Contact</a> </li>
                                     </ul>
                                 </div>
                             </div>
