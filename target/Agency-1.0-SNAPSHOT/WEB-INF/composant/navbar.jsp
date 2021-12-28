@@ -1,22 +1,3 @@
-<%
-    //allow access only if session exists
-    String userName = (String) session.getAttribute("userName");
-    String userLogin = null;
-    String sessionID = null;
-
-    // Récupération des cookies JSESSIONID et user
-    Cookie[] cookies = request.getCookies();
-    if (cookies != null) {
-        for (Cookie cookie : cookies) {
-            if (cookie.getName().equals("userLogin")) {
-                userLogin = cookie.getValue();
-            }
-            if (cookie.getName().equals("JSESSIONID")) {
-                sessionID = cookie.getValue();
-            }
-        }
-    }
-%>  
 
 <header class="light_header">
     <div class="container">
@@ -44,7 +25,7 @@
                                     <li> <a href="/Agency" class="nav-link menu-title">Home</a> </li>
                                     <li> <a href="/Agency/list" class="nav-link menu-title">Liste des biens</a> </li>
 
-                                    <c:if test="${!empty userName}" >
+                                    <c:if test="${!empty user}" >
                                         <li><a href="/Agency/profil" class="nav-link menu-title"><i class="fas fa-user"></i> Votre profil</a></li>
                                         </c:if>                                    
                                     <li> <a href="/Agency/contact" class="nav-link menu-title">Contact</a> </li>
@@ -55,14 +36,14 @@
                         </div>
                     </nav>
 
-                    <c:if test="${empty userName}" >
+                    <c:if test="${empty user}" >
                         <li> <button type="button" class="btn btn-solid color1" data-toggle="modal" data-target="#login">Connexion</button></li>
                         </c:if>
-                        <c:if test="${!empty userName}" >
+                        <c:if test="${!empty user}" >
                         <div class="main-navbar">
                             <ul class="nav-menu">
                                 <li class="dropdown">
-                                    <a href="#" class="btn btn-curve white-btn">Bienvenue ${ userName }</a>
+                                    <a href="#" class="btn btn-curve white-btn">Bienvenue ${ user.identifiant }</a>
                                     <ul class="nav-submenu menu-content">
                                         <li><a href="/Agency/profil" class="nav-link menu-title"><i class="fas fa-user"></i> Votre profil</a></li>
                                         <li>

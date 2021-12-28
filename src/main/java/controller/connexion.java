@@ -14,6 +14,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import modele.Profil;
 
 /**
  *
@@ -22,12 +23,6 @@ import javax.servlet.http.HttpSession;
 @WebServlet(name = "connexion", urlPatterns = {"/connexion"})
 public class connexion extends HttpServlet {
     
-    private final String identifiant = "admin";
-    private final String password = "123";
-    private final String userName = "Gabriel";
-
-   
-   
 
 
     @Override
@@ -37,13 +32,23 @@ public class connexion extends HttpServlet {
         // get request parameters for userID and password
         String loginName = request.getParameter("identifiant");
         String loginPwd = request.getParameter("password");
+        
+        
+         Profil user = new Profil("admin","123","Homme","SAID OMAR","Gabriel","gabriel@saidomar.fr","07 56 82 80 00","36 Chemin de Beldou","31150","Lespinasse");
+        
+         
+         
 
         // Il faudra aussi vérifier les données qui viennent de l'extérieur
-        if (identifiant.equals(loginName) && password.equals(loginPwd)) {
+        if (user.identifiant.equals(loginName) && user.password.equals(loginPwd)) {
 
             // Session , expiration au bout de 20 sec.
             HttpSession session = request.getSession();
-            session.setAttribute("userName", userName);
+            
+            
+            
+            session.setAttribute("user", user);
+         
             //session.setMaxInactiveInterval(20);
 
             Cookie userCookie = new Cookie("userLogin", loginName);
@@ -58,7 +63,7 @@ public class connexion extends HttpServlet {
             try (PrintWriter out = response.getWriter()) {
                 RequestDispatcher rd = getServletContext().getRequestDispatcher("/login.html");
                 out.println("<font color=red>Les informations fournies sont incorrectes (essayez "
-                    + identifiant + "/" + password + ").</font>");
+                    + user.identifiant + "/" + user.password + ").</font>");
                 rd.include(request, response);
             }
         }
