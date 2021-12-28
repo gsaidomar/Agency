@@ -30,18 +30,14 @@
                             </div>
                             <div class="faq-tab">
                                 <ul class="nav nav-tabs" id="top-tab" role="tablist">
+                                   
                                     <li class="nav-item"><a data-toggle="tab" class="nav-link active"
-                                            href="#dashboard">dashboard</a></li>
+                                            href="#profile">profil</a></li>
                                     <li class="nav-item"><a data-toggle="tab" class="nav-link"
-                                            href="#profile">profile</a></li>
+                                            href="#bookings">Mes réservations</a></li>
+                                   
                                     <li class="nav-item"><a data-toggle="tab" class="nav-link"
-                                            href="#bookings">bookings</a></li>
-                                    <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#added-card">cards
-                                            & payment</a></li>
-                                    <li class="nav-item"><a data-toggle="tab" class="nav-link"
-                                            href="#bookmark">bookmark</a></li>
-                                    <li class="nav-item"><a data-toggle="tab" class="nav-link"
-                                            href="#security">security</a></li>
+                                            href="#bookmark">Mes favoris</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -50,129 +46,11 @@
                 <div class="col-lg-9">
                     <div class="product_img_scroll" data-sticky_column>
                         <div class="faq-content tab-content" id="top-tabContent">
-                            <div class="tab-pane fade show active" id="dashboard">
-                                <div class="dashboard-main">
-                                    <div class="dashboard-intro">
-                                        <h5>welcome! <span>Mark Enderess</span></h5>
-                                        <p>you have completed 70% of your profile. add basic info to complete profile.
-                                        </p>
-                                        <div class="complete-profile">
-                                            <div class="row">
-                                                <div class="col-xl-4">
-                                                    <div class="complete-box">
-                                                        <i class="far fa-check-square"></i>
-                                                        <h6>verified email ID</h6>
-                                                    </div>
-                                                </div>
-                                                <div class="col-xl-4">
-                                                    <div class="complete-box">
-                                                        <i class="far fa-check-square"></i>
-                                                        <h6>verified phone number</h6>
-                                                    </div>
-                                                </div>
-                                                <div class="col-xl-4">
-                                                    <div class="complete-box not-complete">
-                                                        <i class="far fa-window-close"></i>
-                                                        <h6>complete basic info</h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="counter-section">
-                                        <div class="row">
-                                            <div class="col-xl-3 col-sm-6">
-                                                <div class="counter-box">
-                                                    <img src="../assets/images/icon/hotel.png"
-                                                        class="img-fluid blur-up lazyload" alt="">
-                                                    <h3>25</h3>
-                                                    <h5>hotel booked</h5>
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-3 col-sm-6">
-                                                <div class="counter-box">
-                                                    <img src="../assets/images/icon/flight.png"
-                                                        class="img-fluid blur-up lazyload" alt="">
-                                                    <h3>12</h3>
-                                                    <h5>flight booked</h5>
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-3 col-sm-6">
-                                                <div class="counter-box">
-                                                    <img src="../assets/images/icon/taxi.png"
-                                                        class="img-fluid blur-up lazyload" alt="">
-                                                    <h3>50</h3>
-                                                    <h5>cab booked</h5>
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-3 col-sm-6">
-                                                <div class="counter-box">
-                                                    <img src="../assets/images/icon/food.png"
-                                                        class="img-fluid blur-up lazyload" alt="">
-                                                    <h3>40</h3>
-                                                    <h5>food ordered</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="dashboard-info">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div id="chart">
-                                                    <div class="detail-left">
-                                                        <ul>
-                                                            <li><span class="completed"></span> Completed</li>
-                                                            <li><span class="upcoming"></span> Upcoming</li>
-                                                            <li><span class="cancelled"></span> Cancelled</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="activity-box">
-                                                    <h6>recent activity</h6>
-                                                    <ul>
-                                                        <li>
-                                                            <i class="fas fa-plane"></i>
-                                                            Paris to Dubai
-                                                            <span>3 days ago</span>
-                                                        </li>
-                                                        <li>
-                                                            <i class="fas fa-plane"></i>
-                                                            Paris to Dubai
-                                                            <span>23 june</span>
-                                                        </li>
-                                                        <li class="blue-line">
-                                                            <i class="fas fa-hotel"></i>
-                                                            hotel sea view
-                                                            <span>20 april</span>
-                                                        </li>
-                                                        <li class="yellow-line">
-                                                            <i class="fas fa-taxi"></i>
-                                                            Paris To Toulouse
-                                                            <span>12 feb</span>
-                                                        </li>
-                                                        <li>
-                                                            <i class="fas fa-plane"></i>
-                                                            Paris to Dubai
-                                                            <span>14 jan</span>
-                                                        </li>
-                                                        <li class="blue-line">
-                                                            <i class="fas fa-hotel"></i>
-                                                            hotel sea view
-                                                            <span>12 jan</span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="profile">
+       
+                            <div class="tab-pane fade show active" id="profile">
                                 <div class="dashboard-box">
                                     <div class="dashboard-title">
-                                        <h4>profile</h4>
+                                        <h4>Mon profil</h4>
                                         <span data-toggle="modal" data-target="#edit-profile">edit</span>
                                     </div>
                                     <div class="dashboard-detail">
@@ -288,7 +166,7 @@
                             <div class="tab-pane fade" id="bookings">
                                 <div class="dashboard-box">
                                     <div class="dashboard-title">
-                                        <h4>upcoming booking</h4>
+                                        <h4>Mes réservations </h4>
                                     </div>
                                     <div class="dashboard-detail">
                                         <div class="booking-box">
@@ -300,7 +178,7 @@
                                             <div class="detail-middle">
                                                 <div class="media">
                                                     <div class="icon">
-                                                        <i class="fas fa-plane"></i>
+                                                       <i class="fas fa-hotel"></i>
                                                     </div>
                                                     <div class="media-body">
                                                         <h6 class="media-heading">dubai to paris</h6>
@@ -314,107 +192,21 @@
                                             </div>
                                             <div class="detail-last">
                                                 <a href="#"><i class="fas fa-window-close" data-toggle="tooltip"
-                                                        data-placement="top" title="cancle booking"></i></a>
-                                                <span class="badge badge-info">upcoming</span>
+                                                        data-placement="top" title="supprimer"></i></a>
+                                                <span class="badge badge-info">A venir</span>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="dashboard-detail">
-                                        <div class="booking-box">
-                                            <div class="date-box">
-                                                <span class="day">tue</span>
-                                                <span class="date">14</span>
-                                                <span class="month">aug</span>
-                                            </div>
-                                            <div class="detail-middle">
-                                                <div class="media">
-                                                    <div class="icon">
-                                                        <i class="fas fa-hotel"></i>
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <h6 class="media-heading">sea view hotel</h6>
-                                                        <p>amount paid: <span>$2500</span></p>
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <h6 class="media-heading">ID: aSdsadf5s1f5</h6>
-                                                        <p>order date: <span>20 oct, 2020</span></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="detail-last">
-                                                <a href="#"><i class="fas fa-window-close" data-toggle="tooltip"
-                                                        data-placement="top" title="cancle booking"></i></a>
-                                                <span class="badge badge-info">upcoming</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="dashboard-detail">
-                                        <div class="booking-box">
-                                            <div class="date-box">
-                                                <span class="day">tue</span>
-                                                <span class="date">14</span>
-                                                <span class="month">aug</span>
-                                            </div>
-                                            <div class="detail-middle">
-                                                <div class="media">
-                                                    <div class="icon">
-                                                        <i class="fas fa-taxi"></i>
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <h6 class="media-heading">paris to Toulouse</h6>
-                                                        <p>amount paid: <span>$2500</span></p>
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <h6 class="media-heading">ID: aSdsadf5s1f5</h6>
-                                                        <p>order date: <span>20 oct, 2020</span></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="detail-last">
-                                                <a href="#"><i class="fas fa-window-close" data-toggle="tooltip"
-                                                        data-placement="top" title="cancle booking"></i></a>
-                                                <span class="badge badge-info">upcoming</span>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    </div>                          
                                 </div>
                                 <div class="dashboard-box">
                                     <div class="dashboard-title">
-                                        <h4>past booking</h4>
+                                        <h4>Mon historique</h4>
                                     </div>
                                     <div class="dashboard-detail">
                                         <div class="booking-box">
                                             <div class="date-box">
-                                                <span class="day">tue</span>
-                                                <span class="date">14</span>
-                                                <span class="month">aug</span>
-                                            </div>
-                                            <div class="detail-middle">
-                                                <div class="media">
-                                                    <div class="icon">
-                                                        <i class="fas fa-plane"></i>
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <h6 class="media-heading">dubai to paris</h6>
-                                                        <p>amount paid: <span>$2500</span></p>
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <h6 class="media-heading">ID: aSdsadf5s1f5</h6>
-                                                        <p>order date: <span>20 oct, 2020</span></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="detail-last">
-                                                <span class="badge badge-success">past</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="dashboard-detail">
-                                        <div class="booking-box">
-                                            <div class="date-box">
-                                                <span class="day">tue</span>
-                                                <span class="date">14</span>
-                                                <span class="month">aug</span>
+                                                <span class="day">Id</span>
+                                                <span class="date">120</span>
                                             </div>
                                             <div class="detail-middle">
                                                 <div class="media">
@@ -422,85 +214,26 @@
                                                         <i class="fas fa-hotel"></i>
                                                     </div>
                                                     <div class="media-body">
-                                                        <h6 class="media-heading">sea view hotel</h6>
-                                                        <p>amount paid: <span>$2500</span></p>
+                                                        <h6 class="media-heading">Chalet</h6>
+                                                        <p>Arrivé: <span>20/12/2020</span></p>
                                                     </div>
                                                     <div class="media-body">
-                                                        <h6 class="media-heading">ID: aSdsadf5s1f5</h6>
-                                                        <p>order date: <span>20 oct, 2020</span></p>
+                                                        <h6 class="media-heading">Tarif: 76125 Euros</h6>
+                                                        <p>Départ: <span>27/12/2020</span></p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="detail-last">
-                                                <span class="badge badge-success">past</span>
+                                                <span class="badge badge-success">Terminé</span>
                                             </div>
                                         </div>
                                     </div>
+                                    
                                     <div class="dashboard-detail">
                                         <div class="booking-box">
                                             <div class="date-box">
-                                                <span class="day">tue</span>
-                                                <span class="date">14</span>
-                                                <span class="month">aug</span>
-                                            </div>
-                                            <div class="detail-middle">
-                                                <div class="media">
-                                                    <div class="icon">
-                                                        <i class="fas fa-taxi"></i>
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <h6 class="media-heading">paris to Toulouse</h6>
-                                                        <p>amount paid: <span>$2500</span></p>
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <h6 class="media-heading">ID: aSdsadf5s1f5</h6>
-                                                        <p>order date: <span>20 oct, 2020</span></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="detail-last">
-                                                <span class="badge badge-success">past</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="dashboard-box">
-                                    <div class="dashboard-title">
-                                        <h4>cancelled booking</h4>
-                                    </div>
-                                    <div class="dashboard-detail">
-                                        <div class="booking-box">
-                                            <div class="date-box">
-                                                <span class="day">tue</span>
-                                                <span class="date">14</span>
-                                                <span class="month">aug</span>
-                                            </div>
-                                            <div class="detail-middle">
-                                                <div class="media">
-                                                    <div class="icon">
-                                                        <i class="fas fa-plane"></i>
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <h6 class="media-heading">dubai to paris</h6>
-                                                        <p>amount paid: <span>$2500</span></p>
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <h6 class="media-heading">ID: aSdsadf5s1f5</h6>
-                                                        <p>order date: <span>20 oct, 2020</span></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="detail-last">
-                                                <span class="badge badge-secondary">cancelled</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="dashboard-detail">
-                                        <div class="booking-box">
-                                            <div class="date-box">
-                                                <span class="day">tue</span>
-                                                <span class="date">14</span>
-                                                <span class="month">aug</span>
+                                                <span class="day">Id</span>
+                                                <span class="date">193</span>
                                             </div>
                                             <div class="detail-middle">
                                                 <div class="media">
@@ -508,412 +241,85 @@
                                                         <i class="fas fa-hotel"></i>
                                                     </div>
                                                     <div class="media-body">
-                                                        <h6 class="media-heading">sea view hotel</h6>
-                                                        <p>amount paid: <span>$2500</span></p>
+                                                        <h6 class="media-heading">Chalet</h6>
+                                                        <p>Arrivé: <span>20/12/2019</span></p>
                                                     </div>
                                                     <div class="media-body">
-                                                        <h6 class="media-heading">ID: aSdsadf5s1f5</h6>
-                                                        <p>order date: <span>20 oct, 2020</span></p>
+                                                        <h6 class="media-heading">Tarif: 90000 Euros</h6>
+                                                        <p>Départ: <span>27/12/2019</span></p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="detail-last">
-                                                <span class="badge badge-secondary">cancelled</span>
+                                                <span class="badge badge-success">Terminé</span>
                                             </div>
                                         </div>
                                     </div>
+                                    
                                     <div class="dashboard-detail">
                                         <div class="booking-box">
                                             <div class="date-box">
-                                                <span class="day">tue</span>
-                                                <span class="date">14</span>
-                                                <span class="month">aug</span>
+                                                <span class="day">Id</span>
+                                                <span class="date">226</span>
                                             </div>
                                             <div class="detail-middle">
                                                 <div class="media">
                                                     <div class="icon">
-                                                        <i class="fas fa-taxi"></i>
+                                                        <i class="fas fa-hotel"></i>
                                                     </div>
                                                     <div class="media-body">
-                                                        <h6 class="media-heading">paris to Toulouse</h6>
-                                                        <p>amount paid: <span>$2500</span></p>
+                                                        <h6 class="media-heading">Appartement T5</h6>
+                                                        <p>Arrivé: <span>20/12/2018</span></p>
                                                     </div>
                                                     <div class="media-body">
-                                                        <h6 class="media-heading">ID: aSdsadf5s1f5</h6>
-                                                        <p>order date: <span>20 oct, 2020</span></p>
+                                                        <h6 class="media-heading">Tarif: 4500 Euros</h6>
+                                                        <p>Départ: <span>27/12/2018</span></p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="detail-last">
-                                                <span class="badge badge-secondary">cancelled</span>
+                                                <span class="badge badge-success">Terminé</span>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>                               
                             </div>
-                            <div class="tab-pane fade" id="added-card">
-                                <div class="dashboard-box">
-                                    <div class="dashboard-title">
-                                        <h4>cards & payment</h4>
-                                    </div>
-                                    <div class="dashboard-detail">
-                                        <div class="row card-payment">
-                                            <div class="col-xl-4 col-sm-6">
-                                                <div class="payment-card master">
-                                                    <div class="card-details">
-                                                        <div class="card-number">
-                                                            <h3>XXXX-XXXX-XXXX-2510</h3>
-                                                        </div>
-                                                        <div class="valid-detail">
-                                                            <div class="title">
-                                                                <span>valid</span>
-                                                                <span>thru</span>
-                                                            </div>
-                                                            <div class="date">
-                                                                <h3>12/23</h3>
-                                                            </div>
-                                                            <div class="primary">
-                                                                <span
-                                                                    class="badge badge-pill badge-light">primary</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="name-detail">
-                                                            <div class="name">
-                                                                <h5>mark jecno</h5>
-                                                            </div>
-                                                            <div class="card-img">
-                                                                <img src="../assets/images/icon/master.png"
-                                                                    class="img-fluid blur-up lazyload" alt="">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="edit-card">
-                                                        <a data-toggle="modal" data-target="#edit-card" href="#"><i
-                                                                class="far fa-edit"></i> edit</a>
-                                                        <a href="#"><i class="far fa-minus-square"></i> delete</a>
-                                                    </div>
-                                                </div>
-                                                <div class="edit-card-mobile">
-                                                    <a data-toggle="modal" data-target="#edit-card" href="#"><i
-                                                            class="far fa-edit"></i> edit</a>
-                                                    <a href="javascript:void(0)"><i class="far fa-minus-square"></i>
-                                                        delete</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-4 col-sm-6">
-                                                <div class="payment-card visa">
-                                                    <div class="card-details">
-                                                        <div class="card-number">
-                                                            <h3>XXXX-XXXX-XXXX-2510</h3>
-                                                        </div>
-                                                        <div class="valid-detail">
-                                                            <div class="title">
-                                                                <span>valid</span>
-                                                                <span>thru</span>
-                                                            </div>
-                                                            <div class="date">
-                                                                <h3>12/23</h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="name-detail">
-                                                            <div class="name">
-                                                                <h5>mark jecno</h5>
-                                                            </div>
-                                                            <div class="card-img">
-                                                                <img src="../assets/images/icon/visa.png"
-                                                                    class="img-fluid blur-up lazyload" alt="">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="edit-card">
-                                                        <a data-toggle="modal" data-target="#edit-card" href="#"><i
-                                                                class="far fa-edit"></i> edit</a>
-                                                        <a href="#"><i class="far fa-minus-square"></i> delete</a>
-                                                    </div>
-                                                </div>
-                                                <div class="edit-card-mobile">
-                                                    <a data-toggle="modal" data-target="#edit-card" href="#"><i
-                                                            class="far fa-edit"></i> edit</a>
-                                                    <a href="javascript:void(0)"><i class="far fa-minus-square"></i>
-                                                        delete</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-4 col-sm-6">
-                                                <div class="payment-card american-express">
-                                                    <div class="card-details">
-                                                        <div class="card-number">
-                                                            <h3>XXXX-XXXX-XXXX-2510</h3>
-                                                        </div>
-                                                        <div class="valid-detail">
-                                                            <div class="title">
-                                                                <span>valid</span>
-                                                                <span>thru</span>
-                                                            </div>
-                                                            <div class="date">
-                                                                <h3>12/23</h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="name-detail">
-                                                            <div class="name">
-                                                                <h5>mark jecno</h5>
-                                                            </div>
-                                                            <div class="card-img">
-                                                                <img src="../assets/images/icon/american.jpg"
-                                                                    class="img-fluid blur-up lazyload" alt="">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="edit-card">
-                                                        <a data-toggle="modal" data-target="#edit-card" href="#"><i
-                                                                class="far fa-edit"></i> edit</a>
-                                                        <a href="#"><i class="far fa-minus-square"></i> delete</a>
-                                                    </div>
-                                                </div>
-                                                <div class="edit-card-mobile">
-                                                    <a data-toggle="modal" data-target="#edit-card" href="#"><i
-                                                            class="far fa-edit"></i> edit</a>
-                                                    <a href="javascript:void(0)"><i class="far fa-minus-square"></i>
-                                                        delete</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-4 col-sm-6">
-                                                <div class="payment-card add-card">
-                                                    <div data-toggle="modal" data-target="#add-card"
-                                                        class="card-details">
-                                                        <div>
-                                                            <i class="fas fa-plus"></i>
-                                                            <h5>add new card</h5>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        
                             <div class="tab-pane fade" id="bookmark">
                                 <div class="dashboard-box">
                                     <div class="dashboard-title">
-                                        <h4>my bookmark</h4>
+                                        <h4>Mes favoris</h4>
                                     </div>
-                                    <div class="product-wrapper-grid ratio3_2 special-section grid-box">
-                                        <div class="row content grid">
-                                            <div class="col-xl-4 col-sm-6 grid-item">
-                                                <div class="special-box">
-                                                    <div class="special-img">
-                                                        <a href="#">
-                                                            <img src="../assets/images/tour/tour/7.jpg"
-                                                                class="img-fluid blur-up lazyload bg-img" alt="">
-                                                        </a>
-                                                        <div class="content_inner">
-                                                            <a href="#">
-                                                                <h5>Beautiful bali</h5>
-                                                            </a>
-                                                            <h6>6N 7D</h6>
-                                                        </div>
-                                                        <div class="top-icon">
-                                                            <a href="#" class="" data-toggle="tooltip"
-                                                                data-placement="top" title="Remove from Wishlist"><i
-                                                                    class="fas fa-times"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-4 col-sm-6 grid-item">
-                                                <div class="special-box">
-                                                    <div class="special-img">
-                                                        <a href="#">
-                                                            <img src="../assets/images/tour/tour/8.jpg"
-                                                                class="img-fluid blur-up lazyload bg-img" alt="">
-                                                        </a>
-                                                        <div class="content_inner">
-                                                            <a href="#">
-                                                                <h5>best of europe</h5>
-                                                            </a>
-                                                            <h6>6N 7D</h6>
-                                                        </div>
-                                                        <div class="top-icon">
-                                                            <a href="#" class="" data-toggle="tooltip"
-                                                                data-placement="top" title="Remove from Wishlist"><i
-                                                                    class="fas fa-times"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-4 col-sm-6 grid-item">
-                                                <div class="special-box">
-                                                    <div class="special-img">
-                                                        <a href="#">
-                                                            <img src="../assets/images/hotel/room/13.jpg"
-                                                                class="img-fluid blur-up lazyload bg-img" alt="">
-                                                        </a>
-                                                        <div class="content_inner">
-                                                            <a href="#">
-                                                                <h5>sea view hotel</h5>
-                                                            </a>
-                                                            <h6>$250/ night</h6>
-                                                        </div>
-                                                        <div class="top-icon">
-                                                            <a href="#" class="" data-toggle="tooltip"
-                                                                data-placement="top" title="Remove from Wishlist"><i
-                                                                    class="fas fa-times"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-4 col-sm-6 grid-item">
-                                                <div class="special-box">
-                                                    <div class="special-img">
-                                                        <a href="#">
-                                                            <img src="../assets/images/restaurant/environment/3.jpg"
-                                                                class="img-fluid blur-up lazyload bg-img" alt="">
-                                                        </a>
-                                                        <div class="content_inner">
-                                                            <a href="#">
-                                                                <h5>italian restro</h5>
-                                                            </a>
-                                                            <h6>fast food | $25 for two</h6>
-                                                        </div>
-                                                        <div class="top-icon">
-                                                            <a href="#" class="" data-toggle="tooltip"
-                                                                data-placement="top" title="Remove from Wishlist"><i
-                                                                    class="fas fa-times"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-4 col-sm-6 grid-item">
-                                                <div class="special-box">
-                                                    <div class="special-img">
-                                                        <a href="#">
-                                                            <img src="../assets/images/flights/flight-breadcrumb2.jpg"
-                                                                class="img-fluid blur-up lazyload bg-img" alt="">
-                                                        </a>
-                                                        <div class="content_inner">
-                                                            <a href="#">
-                                                                <h5>dubai to paris</h5>
-                                                            </a>
-                                                            <h6>egyptair | $2500</h6>
-                                                        </div>
-                                                        <div class="top-icon">
-                                                            <a href="#" class="" data-toggle="tooltip"
-                                                                data-placement="top" title="Remove from Wishlist"><i
-                                                                    class="fas fa-times"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-4 col-sm-6 grid-item">
-                                                <div class="special-box">
-                                                    <div class="special-img">
-                                                        <a href="#">
-                                                            <img src="../assets/images/tour/tour/12.jpg"
-                                                                class="img-fluid blur-up lazyload bg-img" alt="">
-                                                        </a>
-                                                        <div class="content_inner">
-                                                            <a href="#">
-                                                                <h5>simply mauritius</h5>
-                                                            </a>
-                                                            <h6>6N 7D</h6>
-                                                        </div>
-                                                        <div class="top-icon">
-                                                            <a href="#" class="" data-toggle="tooltip"
-                                                                data-placement="top" title="Remove from Wishlist"><i
-                                                                    class="fas fa-times"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-4 col-sm-6 grid-item">
-                                                <div class="special-box">
-                                                    <div class="special-img">
-                                                        <a href="#">
-                                                            <img src="../assets/images/tour/tour/13.jpg"
-                                                                class="img-fluid blur-up lazyload bg-img" alt="">
-                                                        </a>
-                                                        <div class="content_inner">
-                                                            <a href="#">
-                                                                <h5>canadian delight</h5>
-                                                            </a>
-                                                            <h6>6N 7D</h6>
-                                                        </div>
-                                                        <div class="top-icon">
-                                                            <a href="#" class="" data-toggle="tooltip"
-                                                                data-placement="top" title="Remove from Wishlist"><i
-                                                                    class="fas fa-times"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-4 col-sm-6 grid-item">
-                                                <div class="special-box">
-                                                    <div class="special-img">
-                                                        <a href="#">
-                                                            <img src="../assets/images/tour/tour/14.jpg"
-                                                                class="img-fluid blur-up lazyload bg-img" alt="">
-                                                        </a>
-                                                        <div class="content_inner">
-                                                            <a href="#">
-                                                                <h5>Egyptian Wonders</h5>
-                                                            </a>
-                                                            <h6>6N 7D</h6>
-                                                        </div>
-                                                        <div class="top-icon">
-                                                            <a href="#" class="" data-toggle="tooltip"
-                                                                data-placement="top" title="Remove from Wishlist"><i
-                                                                    class="fas fa-times"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-4 col-sm-6 grid-item">
-                                                <div class="special-box">
-                                                    <div class="special-img">
-                                                        <a href="#">
-                                                            <img src="../assets/images/tour/tour/15.jpg"
-                                                                class="img-fluid blur-up lazyload bg-img" alt="">
-                                                        </a>
-                                                        <div class="content_inner">
-                                                            <a href="#">
-                                                                <h5>South Africa</h5>
-                                                            </a>
-                                                            <h6>6N 7D</h6>
-                                                        </div>
-                                                        <div class="top-icon">
-                                                            <a href="#" class="" data-toggle="tooltip"
-                                                                data-placement="top" title="Remove from Wishlist"><i
-                                                                    class="fas fa-times"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="security">
-                                <div class="dashboard-box">
-                                    <div class="dashboard-title">
-                                        <h4>delete your accont</h4>
-                                    </div>
+                                 
                                     <div class="dashboard-detail">
-                                        <div class="delete-section">
-                                            <p>Hi <span class="text-bold">Mark Enderess</span>,</p>
-                                            <p>we are sorry to here you would like to delete your account.</p>
-                                            <p><span class="text-bold">note:</span></p>
-                                            <p>deleting your account will permanently remove your profile, personal
-                                                settings, and all other associated information.
-                                                once your account is deleted, you will be logged out and will be unable
-                                                to log back in.
-                                            </p>
-                                            <p>if you understand and agree to the above statement, and would still like
-                                                to delete your account, than click below</p>
-                                            <a href="#" data-toggle="modal" data-target="#delete-account"
-                                                class="btn btn-solid">delete my account</a>
+                                        <div class="booking-box">
+                                            <div class="date-box">
+                                                <span class="day">Id</span>
+                                                <span class="date">226</span>
+                                            </div>
+                                            <div class="detail-middle">
+                                                <div class="media">
+                                                    <div class="icon">
+                                                        <i class="fas fa-hotel"></i>
+                                                    </div>
+                                                    
+                                                    <div class="media-body">
+                                                        <h4>Appartement T5</h4>
+                                                        <p>73m² - Courchevel 1850 - 4 personnes - centre station</p>
+                                                    </div>
+                                                   
+                                                </div>
+                                            </div>
+                                            <div class="detail-last">
+                                                <a href="#"><i class="fas fa-window-close" data-toggle="tooltip"
+                                                        data-placement="top" title="supprimer"></i></a>
+                                                <a href="url" class="btn btn-solid color1" > Voir</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                          
                         </div>
                     </div>
                 </div>
