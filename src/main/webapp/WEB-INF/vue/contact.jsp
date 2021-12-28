@@ -4,7 +4,7 @@
                 <%@include file="../composant/homebackground.jsp" %>
 
 
-    <!-- get in touch section start -->
+
     <section class="small-section">
         <div class="container">
             <div class="row">
@@ -50,6 +50,6 @@
             </div>
         </div>
     </section>
-    <!-- get in touch section end -->
+
 
  <%@include file="../layout/footer.jsp" %>

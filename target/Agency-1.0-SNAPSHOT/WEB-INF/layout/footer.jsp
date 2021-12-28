@@ -92,6 +92,13 @@
 <!-- slick js-->
 <script src="/Agency/resources/assets/js/slick.js"></script>
 
+<!-- stick section js -->
+    <script src='/Agency/resources/assets/js/sticky-kit.js'></script>
+
+    <!-- stick section js -->
+    <script src='/Agency/resources/assets/js/apexcharts.js'></script>
+    <script src='/Agency/resources/assets/js/chart.js'></script>
+
 <!-- Bootstrap js-->
 <script src="/Agency/resources/assets/js/bootstrap.js"></script>
 

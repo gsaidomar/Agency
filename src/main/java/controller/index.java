@@ -59,7 +59,7 @@ public class index extends HttpServlet {
 
 
             // Client side redirect
-            response.sendRedirect("home.jsp");
+            response.sendRedirect("home");
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
