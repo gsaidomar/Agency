@@ -45,8 +45,7 @@
                                     <li> <a href="/Agency/list" class="nav-link menu-title">Liste des biens</a> </li>
 
                                     <c:if test="${!empty userName}" >
-                                        <li> <a href="/Agency/favoris.jsp" class="nav-link menu-title">Favoris</a> </li>
-                                        <li> <a href="/Agency/reservation.jsp" class="nav-link menu-title">Réservation</a> </li>
+                                        <li><a href="/Agency/profil" class="nav-link menu-title"><i class="fas fa-user"></i> Votre profil</a></li>
                                         </c:if>                                    
                                     <li> <a href="/Agency/contact" class="nav-link menu-title">Contact</a> </li>
 
@@ -60,24 +59,20 @@
                         <li> <button type="button" class="btn btn-solid color1" data-toggle="modal" data-target="#login">Connexion</button></li>
                         </c:if>
                         <c:if test="${!empty userName}" >
-                         <div class="main-navbar">
-                                <ul class="nav-menu">
-                                    <li class="dropdown">
-                                        <a href="#" class="btn btn-curve white-btn">Bienvenue ${ userName }</a>
-                                        <ul class="nav-submenu menu-content">
-                                            <li><a href="#" class="nav-link menu-title"><i class="fas fa-user"></i> Votre profil</a></li>
-                                            
-                                                
-                                                <li>
-                                                    <form action="logout" method="post">
-                                                    <input  class="btn btn-curve white-btn" type="submit" value="Déconnexion" >
-                                                 </form>
-                                                </li>
-                                           
-                                            
-                                        </ul>
-                                    </li>
-                                </ul>
+                        <div class="main-navbar">
+                            <ul class="nav-menu">
+                                <li class="dropdown">
+                                    <a href="#" class="btn btn-curve white-btn">Bienvenue ${ userName }</a>
+                                    <ul class="nav-submenu menu-content">
+                                        <li><a href="/Agency/profil" class="nav-link menu-title"><i class="fas fa-user"></i> Votre profil</a></li>
+                                        <li>
+                                            <form action="logout" method="post">
+                                                <input  class="btn btn-curve white-btn" type="submit" value="Déconnexion" >
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </div>
                     </c:if>
                 </div>

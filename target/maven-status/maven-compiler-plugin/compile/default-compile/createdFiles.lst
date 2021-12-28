@@ -1,5 +1,6 @@
 modele/Listing.class
 modele/RoomDescription.class
+controller/logout.class
 modele/Photo.class
 createAgency/create.class
 modele/Description.class
@@ -10,6 +11,7 @@ modele/RoomName.class
 modele/Proximitie.class
 modele/EarlyLastDiscount.class
 modele/AmenitieName.class
+controller/connexion.class
 modele/Catchphrase.class
 modele/Discount.class
 modele/Title.class

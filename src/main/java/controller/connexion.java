@@ -22,7 +22,7 @@ import javax.servlet.http.HttpSession;
 @WebServlet(name = "connexion", urlPatterns = {"/connexion"})
 public class connexion extends HttpServlet {
     
-     private final String identifiant = "admin";
+    private final String identifiant = "admin";
     private final String password = "123";
     private final String userName = "Gabriel";
 
@@ -44,10 +44,10 @@ public class connexion extends HttpServlet {
             // Session , expiration au bout de 20 sec.
             HttpSession session = request.getSession();
             session.setAttribute("userName", userName);
-            session.setMaxInactiveInterval(20);
+            //session.setMaxInactiveInterval(20);
 
             Cookie userCookie = new Cookie("userLogin", loginName);
-            userCookie.setMaxAge(1 * 1000);
+            //userCookie.setMaxAge(1 * 1000);
             response.addCookie(userCookie);
 
             // Client side redirect
