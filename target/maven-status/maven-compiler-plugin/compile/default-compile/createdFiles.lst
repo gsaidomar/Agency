@@ -2,12 +2,13 @@ modele/Listing.class
 modele/RoomDescription.class
 controller/logout.class
 modele/Photo.class
-createAgency/create.class
+controller/modifProfil.class
 modele/Description.class
 modele/Amenitie.class
 controller/detailController.class
 modele/Bed.class
 modele/RoomName.class
+modele/Profil.class
 modele/Proximitie.class
 modele/EarlyLastDiscount.class
 modele/AmenitieName.class

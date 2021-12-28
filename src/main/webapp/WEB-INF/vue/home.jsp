@@ -81,10 +81,7 @@
                                                      class="img-fluid blur-up lazyload bg-img" alt="">
                                             </a>
                                             <div class="top-icon">
-                                                <a href="#" class="" data-toggle="tooltip" data-placement="top" title=""
-                                                   data-original-title="Add to Wishlist">
-                                                    <i class="far fa-heart"></i>
-                                                </a>
+                                                <button><i class="far fa-heart"></i></button>
                                             </div>
                                         </div>
                                         <div class="special-content">
