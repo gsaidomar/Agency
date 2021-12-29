@@ -23,9 +23,9 @@
                         </div>
                         <div class="right-part">
 
-                            <h6 class="price">${ c.prices[2].weeklyPrice } &#8364; <span>/ Semaine</span></h6>
-
-                            <a href="#" class="btn btn-rounded btn-sm color1">Reserver maintenant</a>
+                            <h6 class="price"><span id="prix">${ c.prices[2].weeklyPrice }</span> &#8364; <span>/ Semaine</span></h6>
+                            
+                            <button class="btn btn-rounded btn-sm color1" id="booking">Réserver maintenant</button>
                         </div>
                     </div>
                 </div>

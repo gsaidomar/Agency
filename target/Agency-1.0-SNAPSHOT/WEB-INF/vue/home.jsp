@@ -5,6 +5,7 @@
         <%@include file="../composant/homebackground.jsp" %>
         <%@include file="../composant/recherche.jsp" %>
        
+        
       <section class="xs-section bg-inner">
         <div class="container">
             <div class="row">
@@ -115,7 +116,7 @@
                                                 </div>
                                                 <div class="price">
                                               
-                                                    <span>${ c.prices[2].weeklyPrice } &#8364;/Semaine</span>
+                                                    <span>${ c.prices[2].weeklyPrice } &#8364;/Semaine </span>
                                                    
                                                 </div>
                                             </div>
