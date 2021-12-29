@@ -121,18 +121,24 @@
   
 $('#booking').click(function(){
     
-    var formData = $("#prix").text();
-            console.log(formData);
+    var prix = $("#prix").text();
+            console.log(prix);
+    var listingId = $("#idbien").text();
+            console.log(listingId);
      
+     var Data ={prix: prix, listingId: listingId};
 
-            $.ajax({
-                url: "./",
+     var saveData = $.ajax({
+                url: "./booking",
                 type: "post",
-                data: formData,
-                success: function(d) {
-                    alert(d);
+                data: prix,
+                dataType: "text",
+                success: function(resultData) { 
+                    alert("Save Complete") ;
                 }
+                
             });
+     saveData.error(function() { alert("Something went wrong"); });
 });
 
 </script>
