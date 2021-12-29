@@ -19,6 +19,10 @@
         <servlet-class>controller.detailController</servlet-class>
     </servlet>
     <servlet>
+        <servlet-name>booking</servlet-name>
+        <servlet-class>controller.booking</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>index</servlet-name>
         <servlet-class>controller.index</servlet-class>
     </servlet>
@@ -48,6 +52,11 @@
         <servlet-name>detailController</servlet-name>
         <url-pattern>/detail</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>booking</servlet-name>
+        <url-pattern>/booking</url-pattern>
+    </servlet-mapping>
+    
     
     <error-page>
         <error-code>404</error-code>

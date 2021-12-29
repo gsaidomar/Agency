@@ -11,7 +11,8 @@
                                 <h3>${ c.titles.fr }</h3>
 
                             </div>
-                            <p>${ c.type }, ${ c.postCode },${ c.city }</p>
+                            <h6>ref du bien: <span id="idbien">${ c.listingId }</span></h6>
+                            
                             <div class="facility-detail">
                                 <c:if test="${c.parking}">
                                     <span>parking</span>

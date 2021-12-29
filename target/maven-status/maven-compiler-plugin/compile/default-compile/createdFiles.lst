@@ -11,6 +11,7 @@ modele/RoomName.class
 modele/Profil.class
 modele/Proximitie.class
 modele/EarlyLastDiscount.class
+controller/booking.class
 modele/AmenitieName.class
 controller/connexion.class
 modele/Catchphrase.class
