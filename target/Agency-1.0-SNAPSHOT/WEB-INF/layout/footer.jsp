@@ -118,6 +118,23 @@
         format: 'dd mmmm'
     });
     new WOW().init();
+  
+$('#booking').click(function(){
+    
+    var formData = $("#prix").text();
+            console.log(formData);
+     
+
+            $.ajax({
+                url: "./",
+                type: "post",
+                data: formData,
+                success: function(d) {
+                    alert(d);
+                }
+            });
+});
+
 </script>
 
 </body>
