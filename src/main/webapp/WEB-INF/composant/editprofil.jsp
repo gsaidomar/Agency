@@ -14,17 +14,7 @@
                         <h5>${ user.identifiant }</h5>
                     </div>
                 </div>
-            </li>
-            <li>
-                <div class="details">
-                    <div class="left">
-                        <h4>Civilité</h4>
-                    </div>
-                    <div class="right">
-                        <h5>${ user.civilite }</h5>
-                    </div>
-                </div>
-            </li>
+            </li>     
             <li>
                 <div class="details">
                     <div class="left">
@@ -35,7 +25,7 @@
                     </div>
                 </div>
             </li>
-             <li>
+            <li>
                 <div class="details">
                     <div class="left">
                         <h4>prénom</h4>
@@ -100,13 +90,7 @@
         </ul>
     </div>
 </div>
-
-
-
-
-<!-- edit profile modal start -->
-<div class="modal fade edit-profile-modal" id="edit-profile" tabindex="-1" role="dialog"
-     aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade edit-profile-modal" id="edit-profile" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -118,32 +102,18 @@
             <div class="modal-body">
                 <form action="modifProfil" method="post">
                     <div class="form-row">
-                         <div class="form-group col-md-12">
+                        <div class="form-group col-md-12">
                             <label for="pass">Changer password</label>
                             <input type="password" class="form-control" name="pass"  value="${ user.password }">
                         </div>
-                        
-                        
-                         <div class="form-group col-md-3">
-                            <label for="civilite">Civilité</label>
-                            <select name="civilite" class="form-control">
-                                <option selected >Selectionner ....</option>
-                                <option value="Homme">Homme</option>
-                                <option value="Femme">Femme</option>
-                            </select>
-                        </div>
-                       
-                        
-                        
-                        <div class="form-group col-md-5">
+                        <div class="form-group col-md-6">
                             <label for="nom">Votre nom</label>
                             <input type="text" class="form-control" name="nom"  value="${ user.nom }">
                         </div>
-                        <div class="form-group col-md-4">
+                        <div class="form-group col-md-6">
                             <label for="prenom">Votre prenom</label>
                             <input type="text" class="form-control" name="prenom" value="${ user.prenom }">
                         </div>
-                        
                         <div class="form-group col-md-6">
                             <label for="email">Votre email</label>
                             <input type="email" class="form-control" name="email" value="${ user.email }">
@@ -152,34 +122,23 @@
                             <label for="telephone">Votre téléphone</label>
                             <input type="phone" class="form-control" name="telephone" value="${ user.telephone }">
                         </div>
-                       
-                        
                         <div class="form-group col-12">
                             <label for="adresse">Votre adresse</label>
                             <input type="text" class="form-control" name="adresse" value="${ user.adresse }">
                         </div>
-                         <div class="form-group col-md-3">
+                        <div class="form-group col-md-3">
                             <label for="codePostal">Code postal</label>
                             <input type="text" class="form-control" name="codePostal"  value="${ user.codePostal }">
                         </div>
-                        
                         <div class="form-group col-md-9">
                             <label for="ville">Ville</label>
                             <input type="text" class="form-control" name="ville"  value="${ user.ville }">
                         </div>
-                        
-                       
                     </div>
-                        <button type="submit" class="btn btn-solid">Sauvegarde</button>
+                    <button type="submit" class="btn btn-solid">Sauvegarde</button>
                 </form>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-                <button type="submit" class="btn btn-solid">Sauvegarde</button>
-            </div>
+            
         </div>
     </div>
 </div>
-<!-- edit profile modal start -->
-
-

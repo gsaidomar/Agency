@@ -30,14 +30,9 @@
                         </div>
                         <div class="faq-tab">
                             <ul class="nav nav-tabs" id="top-tab" role="tablist">
-
-                                <li class="nav-item"><a data-toggle="tab" class="nav-link active"
-                                                        href="#profile">profil</a></li>
-                                <li class="nav-item"><a data-toggle="tab" class="nav-link"
-                                                        href="#bookings">Mes réservations</a></li>
-
-                                <li class="nav-item"><a data-toggle="tab" class="nav-link"
-                                                        href="#bookmark">Mes favoris</a></li>
+                                <li class="nav-item"><a data-toggle="tab" class="nav-link active" href="#profile">profil</a></li>
+                                <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#bookings">Mes réservations</a></li>
+                                <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#bookmark">Mes favoris</a></li>
                             </ul>
                         </div>
                     </div>
@@ -48,8 +43,9 @@
                     <div class="faq-content tab-content" id="top-tabContent">
 
                         <div class="tab-pane fade show active" id="profile">
-
-                            <%@include file="../composant/editprofil.jsp" %>
+                            
+                             <%@include file="../composant/editprofil.jsp" %>
+                           
                         </div>
                         <div class="tab-pane fade" id="bookings">
                             <%@include file="../composant/editreservation.jsp" %>                             

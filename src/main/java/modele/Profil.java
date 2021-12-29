@@ -12,7 +12,6 @@ public class Profil {
 
     public String identifiant;
     public String password;
-    public String civilite;
     public String nom;
     public String prenom;
     public String email;
@@ -23,10 +22,9 @@ public class Profil {
     
     
 
-    public Profil(String identifiant, String password, String civilite, String nom, String prenom, String email, String telephone, String adresse, String codePostal, String ville) {
+    public Profil(String identifiant, String password, String nom, String prenom, String email, String telephone, String adresse, String codePostal, String ville) {
         this.identifiant = identifiant;
         this.password = password;
-        this.civilite = civilite;
         this.nom = nom;
         this.prenom = prenom;
         this.email = email;
@@ -54,15 +52,6 @@ public class Profil {
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    
-    public String isCivilite() {
-        return civilite;
-    }
-
-    public void setCivilite(String civilite) {
-        this.civilite = civilite;
     }
 
     public String getNom() {
