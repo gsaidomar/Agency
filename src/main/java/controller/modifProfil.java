@@ -56,7 +56,7 @@ public class modifProfil extends HttpServlet {
         
          HttpSession session = request.getSession();
           Profil user = (Profil) session.getAttribute("user");
-         user.civilite = civilite;
+     
           user.nom = nom;
           user.prenom =  prenom;
           user.email = email;

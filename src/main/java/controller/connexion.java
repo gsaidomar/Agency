@@ -34,7 +34,7 @@ public class connexion extends HttpServlet {
         String loginPwd = request.getParameter("password");
         
         
-         Profil user = new Profil("admin","123","Homme","SAID OMAR","Gabriel","gabriel@saidomar.fr","07 56 82 80 00","36 Chemin de Beldou","31150","Lespinasse");
+         Profil user = new Profil("admin","123","SAID OMAR","Gabriel","gabriel@saidomar.fr","07 56 82 80 00","36 Chemin de Beldou","31150","Lespinasse");
         
          
          
