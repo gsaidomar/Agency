@@ -115,7 +115,7 @@
                                                 </div>
                                                 <div class="price">
                                               
-                                                    <span>${ c.prices[0].weeklyPrice } Euros / Semaine</span>
+                                                    <span>${ c.prices[2].weeklyPrice } &#8364;/Semaine</span>
                                                    
                                                 </div>
                                             </div>
