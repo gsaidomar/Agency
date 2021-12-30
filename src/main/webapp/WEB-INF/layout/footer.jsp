@@ -84,7 +84,9 @@
 <script src="/Agency/resources/assets/js/price-range.js"></script>
 
 <!-- date-time picker js -->
-<script src="/Agency/resources/assets/js/date-picker.js"></script>
+<script src="/Agency/resources/assets/js/date-picker.js"></script
+    
+
 
 <!-- wow js-->
 <script src="/Agency/resources/assets/js/wow.min.js"></script>
@@ -108,6 +110,8 @@
 <!-- Theme js-->
 <script src="/Agency/resources/assets/js/script.js"></script>
 
+<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_8VtM0u9p_L8rXC17y7GDAqMxxZAiwGc"></script>
 <script>
     $('#datepicker').datepicker({
         uiLibrary: 'bootstrap4',
@@ -121,6 +125,13 @@
 
 </script>
 <script src="/Agency/resources/assets/js/custom.js"></script>
+
+<script>
+
+  
+
+    
+</script>
 
 </body>
 

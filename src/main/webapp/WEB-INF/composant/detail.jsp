@@ -1,5 +1,11 @@
+<div id="createMap">
+  <a onclick="myFunction()"></a>
+</div>
 
-<!-- section start -->
+
+<input type="hidden" id="lng" value="${c.longitude}" />
+<input type="hidden" id="lat" value="${c.latitude}" />
+
 <section class="single-section xs-section bg-inner">
     <div class="container">
         <div class="row">
@@ -31,6 +37,7 @@
                             <c:if test="${!empty user}" >
                                 <button class="btn btn-rounded btn-sm color1" id="booking">Réserver maintenant</button>
                             </c:if>
+                                
                         </div>
                     </div>
                 </div>
@@ -112,9 +119,7 @@
                         <div class="desc-box">
                             <h4 class="content-title">location</h4>
                             <div class="menu-part page-section map" id="location">
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.9147718689!2d-74.11976358820196!3d40.69740344169578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1568001991098!5m2!1sen!2sin"
-                                    style="border:0;" allowfullscreen=""></iframe>
+                               <div id="map"></div>
                             </div>
                         </div>
                     </div>
@@ -152,3 +157,4 @@
     </div>
 </section>
 <!-- section end -->
+
