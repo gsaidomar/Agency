@@ -43,7 +43,11 @@
     <!-- Theme css -->
     <link rel="stylesheet" type="text/css" href="/Agency/resources/assets/css/color1.css">
     
+ <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    
      <link rel="stylesheet" type="text/css" href="/Agency/resources/assets/css/custom.css">
+     
+
 
 </head>
     <body>

@@ -7,7 +7,7 @@ function addMarkerToGroup(group, coordinate, html) {
 }
 
 
-var yourMarker  = '../assets/images/icon/marker-b.png';
+var yourMarker  = '/Agency/resources/assets/images/icon/marker-b.png';
 var icon = new H.map.Icon(yourMarker);
 
 

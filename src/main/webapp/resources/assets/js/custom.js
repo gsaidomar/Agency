@@ -29,6 +29,25 @@
             });
   
     });
+    
+function myFunction() {
+    var LAT = Number($("#lat").val());
+    var LNG = Number($("#lng").val());
+    
+      const map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat:  LAT, lng: LNG},
+        zoom: 16
+      });
+
+      const trexMarker = new google.maps.Marker({
+        position: {lat:  LAT, lng: LNG},
+        map: map,
+        title: 'Stan the T-Rex'
+      });
+}
+$(document).ready(function () {
+    $('#createMap a').click();
+});   
 
 
 
