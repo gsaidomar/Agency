@@ -2,25 +2,25 @@
                                     <div class="dashboard-title">
                                         <h4>Mes réservations </h4>
                                     </div>
+    <c:forEach items="${ book }" var="c"  varStatus="status" >
                                     <div class="dashboard-detail">
                                         <div class="booking-box">
                                             <div class="date-box">
-                                                <span class="day">tue</span>
-                                                <span class="date">14</span>
-                                                <span class="month">aug</span>
+                                                <span class="day">Id</span>
+                                                <span class="date">${ c.listingId }</span>
                                             </div>
                                             <div class="detail-middle">
                                                 <div class="media">
                                                     <div class="icon">
-                                                       <i class="fas fa-hotel"></i>
+                                                        <i class="fas fa-hotel"></i>
                                                     </div>
                                                     <div class="media-body">
-                                                        <h6 class="media-heading">dubai to paris</h6>
-                                                        <p>amount paid: <span>$2500</span></p>
+                                                        <h6 class="media-heading">${ c.type }</h6>
+                                                        <p>Arrivé: <span>${ c.arrive }</span></p>
                                                     </div>
                                                     <div class="media-body">
-                                                        <h6 class="media-heading">ID: aSdsadf5s1f5</h6>
-                                                        <p>order date: <span>20 oct, 2020</span></p>
+                                                        <h6 class="media-heading">Tarif: ${ c.prix } &#8364;</h6>
+                                                        <p>Départ: <span>${ c.depart }</span></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -30,8 +30,10 @@
                                                 <span class="badge badge-info">A venir</span>
                                             </div>
                                         </div>
-                                    </div>                          
+                                    </div>  
+                           </c:forEach>         
                                 </div>
+
                                 <div class="dashboard-box">
                                     <div class="dashboard-title">
                                         <h4>Mon historique</h4>

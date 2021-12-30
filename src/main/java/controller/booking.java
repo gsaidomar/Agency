@@ -13,7 +13,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import modele.Booking;
 import modele.Listing;
+import modele.Profil;
 
 /**
  *
@@ -22,7 +24,7 @@ import modele.Listing;
 @WebServlet(name = "booking", urlPatterns = {"/booking"})
 public class booking extends HttpServlet {
 
-
+    ArrayList<Booking> book = new ArrayList<>();
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
@@ -41,44 +43,27 @@ public class booking extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
+
+         
+        HttpSession session = request.getSession();
+        Profil user = (Profil) session.getAttribute("user");
         
-        String prix = request.getParameter("prix" );
-        String listingId =  (String)request.getParameter("listingId" );
+        Booking resa = new Booking();
+        
+        resa.identifiant = user.identifiant;
+        resa.listingId = request.getParameter("listingId" );
+        resa.type =  request.getParameter("type" );
+        resa.prix = request.getParameter("prix" );
+        resa.arrive =  request.getParameter("arrive" );
+        resa.depart =  request.getParameter("depart" );
         
         
-        
-           HttpSession session = request.getSession();
-        Listing[] lots = (Listing[])session.getAttribute("biens");
-        Listing biens = new Listing();
-  
-        String detailId = request.getParameter("listingId");
        
-        if (detailId == null ) {
-            // On n'a pas les données du formulaire nécessaires
-            // car on vient d'arriver sur la page
-            request.setAttribute("rienACalculer", Boolean.TRUE);
-        } else {
-            // Le formulaire a été soumis
-            try {
+        book.add(resa);
+        
+        
+        session.setAttribute("book", book);
 
-                for(int i = 0; i<lots.length; i++){
-                    
-                   if (lots[i].listingId.equals(detailId))   {  
-                        biens = lots[i];
-                   }
-                }
-
-            } catch (NumberFormatException e) {
-            }
-        }
-
-      request.setAttribute("c", biens);
-
-        // Donne la main AU JSP chargé de la vue
-        ServletContext ctx = getServletContext();
-        ctx.getRequestDispatcher("/WEB-INF/vue/detail.jsp")
-                .forward(request, response);
-  
     }
 
     /**
