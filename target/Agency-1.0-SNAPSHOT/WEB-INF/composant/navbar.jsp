@@ -23,7 +23,7 @@
                                         </div>
                                     </li>
                                     <li> <a href="/Agency" class="nav-link menu-title">Home</a> </li>
-                                    <li> <a href="/Agency/list" class="nav-link menu-title">Liste des biens</a> </li>
+
 
                                     <c:if test="${!empty user}" >
                                         <li><a href="/Agency/profil" class="nav-link menu-title"><i class="fas fa-user"></i> Votre profil</a></li>

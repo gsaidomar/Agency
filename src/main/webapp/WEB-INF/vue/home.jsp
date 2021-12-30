@@ -81,9 +81,7 @@
                                                 <img src="${c.photos[0].uri }"
                                                      class="img-fluid blur-up lazyload bg-img" alt="">
                                             </a>
-                                            <div class="top-icon">
-                                                <button><i class="far fa-heart"></i></button>
-                                            </div>
+                                            
                                         </div>
                                         <div class="special-content">
                                             <a href="/Agency/detail?listingId=${ c.listingId }">
