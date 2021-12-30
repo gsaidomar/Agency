@@ -25,8 +25,12 @@
                         <div class="right-part">
 
                             <h6 class="price"><span id="prix">${ c.prices[2].weeklyPrice }</span> &#8364; <span>/ Semaine</span></h6>
-                            
-                            <button class="btn btn-rounded btn-sm color1" id="booking">Réserver maintenant</button>
+                            <c:if test="${empty user}" >
+                                <button type="button" class="btn btn-solid color1" data-toggle="modal" data-target="#login">Réserver maintenant </button>
+                            </c:if>
+                            <c:if test="${!empty user}" >
+                                <button class="btn btn-rounded btn-sm color1" id="booking">Réserver maintenant</button>
+                            </c:if>
                         </div>
                     </div>
                 </div>
@@ -44,7 +48,7 @@
                                     <div class="col-xl-2 col-6 text-center">
                                         <i class="compo fas fa-home  mb-4"></i>
                                         <h5> Type</h5>
-                                        <h6>${ c.type }</h6>
+                                        <h6 id="type">${ c.type }</h6>
                                     </div>
                                     <div class="col-xl-2 col-6 text-center">
                                         <i class="compo fas fa-ruler-combined mb-4"></i>

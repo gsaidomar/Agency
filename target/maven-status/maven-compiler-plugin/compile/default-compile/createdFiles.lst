@@ -6,6 +6,7 @@ controller/modifProfil.class
 modele/Description.class
 modele/Amenitie.class
 controller/detailController.class
+modele/Booking.class
 modele/Bed.class
 modele/RoomName.class
 modele/Profil.class

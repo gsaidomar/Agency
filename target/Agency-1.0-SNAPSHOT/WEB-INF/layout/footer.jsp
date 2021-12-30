@@ -121,24 +121,31 @@
   
 $('#booking').click(function(){
     
-    var prix = $("#prix").text();
-            console.log(prix);
-    var listingId = $("#idbien").text();
-            console.log(listingId);
-     
-     var Data ={prix: prix, listingId: listingId};
+    var price = $("#prix").text();       
+    var idbien = $("#idbien").text();      
+    var type = $("#type").text(); 
+    var arrive = "21/12/2021"; 
+    var depart = "29/12/2021"; 
+  
 
-     var saveData = $.ajax({
-                url: "./booking",
+        $.ajax({
                 type: "post",
-                data: prix,
-                dataType: "text",
-                success: function(resultData) { 
+                url: "./booking",
+                dataType:"json",
+                data: {
+                        listingId: idbien,
+                        type : type,
+                        prix : price,
+                        arrive : arrive,
+                        depart : depart
+                        
+                        },
+                success: function() { 
                     alert("Save Complete") ;
                 }
                 
             });
-     saveData.error(function() { alert("Something went wrong"); });
+    
 });
 
 </script>
