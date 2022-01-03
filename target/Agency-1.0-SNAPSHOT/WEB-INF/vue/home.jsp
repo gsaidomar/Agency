@@ -5,6 +5,7 @@
         <%@include file="../composant/homebackground.jsp" %>
         <%@include file="../composant/recherche.jsp" %>
        
+        
       <section class="xs-section bg-inner">
         <div class="container">
             <div class="row">
@@ -80,12 +81,7 @@
                                                 <img src="${c.photos[0].uri }"
                                                      class="img-fluid blur-up lazyload bg-img" alt="">
                                             </a>
-                                            <div class="top-icon">
-                                                <a href="#" class="" data-toggle="tooltip" data-placement="top" title=""
-                                                   data-original-title="Add to Wishlist">
-                                                    <i class="far fa-heart"></i>
-                                                </a>
-                                            </div>
+                                            
                                         </div>
                                         <div class="special-content">
                                             <a href="/Agency/detail?listingId=${ c.listingId }">
@@ -118,7 +114,7 @@
                                                 </div>
                                                 <div class="price">
                                               
-                                                    <span>${ c.prices[0].weeklyPrice } Euros / Semaine</span>
+                                                    <span>${ c.prices[2].weeklyPrice } &#8364;/Semaine </span>
                                                    
                                                 </div>
                                             </div>

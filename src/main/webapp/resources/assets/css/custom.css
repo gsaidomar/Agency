@@ -5,3 +5,15 @@ img.sliderimage {
 .logo-ldnr{
         width: 140px;
 }
+
+.compo{
+    font-size: 45px;
+    color: #5e5e5e;
+}
+
+#map {
+      
+      height: 500px !important;
+      
+    }
+

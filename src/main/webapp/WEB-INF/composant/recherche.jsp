@@ -8,7 +8,7 @@
                             <div class="left-part">
                                 <div class="search-body title-hotel">
                                     <h6>Destination</h6>
-                                    <input type="text" name="text" placeholder="Courchevel" class="form-control ">
+                                    <input type="text" name="text" placeholder="Courchevel" class="form-control " value="Courchevel">
                                 </div>
                                 <div class="search-body">
                                     <h6>Arrivée</h6>
