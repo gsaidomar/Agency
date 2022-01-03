@@ -100,7 +100,7 @@
                         </div>
 
                         <div class="desc-box">
-                            <h4 class="content-title">facility at sea view</h4>
+                            <h4 class="content-title">Equipements</h4>
                             <div class="menu-part page-section facility" id="facility">
                                 <div class="row">
 
@@ -117,7 +117,7 @@
                         </div>
 
                         <div class="desc-box">
-                            <h4 class="content-title">location</h4>
+                            <h4 class="content-title">Emplacement</h4>
                             <div class="menu-part page-section map" id="location">
                                <div id="map"></div>
                             </div>
